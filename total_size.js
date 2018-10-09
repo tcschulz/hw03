@@ -22,7 +22,6 @@ recursive(process.cwd(), function (err, files) { //array of all file paths
   }	else {
 	  console.log("All files: ");
 	  console.log(files);
-	  for (i in files) {
 
 		var handleFile = function(stats, i, filenames, total) {
 			if (i === filenames.length - 1) {
@@ -57,7 +56,6 @@ recursive(process.cwd(), function (err, files) { //array of all file paths
 			processFile(0, filenames, 0);
 		});
 	  }
-	}
 });
 
 
