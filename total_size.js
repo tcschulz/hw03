@@ -2,7 +2,7 @@
 // Tanya Schulz
 // October 9, 2018
 
-//Still doesn't function properly but works for empty directories now...
+//Still doesn't function properly but works for directories without subdirectories and empty directories now...
 
 var fs = require('fs'); //file system module 
 var args = process.argv; //command line arguments
